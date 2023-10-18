@@ -43,10 +43,17 @@ h1, h2 {
 }
 .navbar-brand, img {
   border-radius: 50px;
-  color: white;
+  background-color: white;
+}
+.navbar-brand {
+  color:white;
 }
 .navbar a:hover {
   background-color: pink;
+}
+.container-fluid, .nav-item{
+  color:white;
+  font-size: medium;
 }
   
   
