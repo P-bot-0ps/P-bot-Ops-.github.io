@@ -5,9 +5,15 @@ body {
   flex-direction: column;
 }
 
-* {
-  box-sizing: border-box;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
 .header{
   width: 100vw;
   height: 100vh;
