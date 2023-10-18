@@ -32,6 +32,7 @@ h1, h2 {
 }
 .navbar {
   font-size: 30px;
+  color: white;
   position: fixed;
   display: flex;
   justify-content: flex-end;
@@ -44,11 +45,9 @@ h1, h2 {
 }
 .navbar-brand, img {
   border-radius: 50px;
-  background-color: white;
+
 }
-.navbar-brand {
-  color:white;
-}
+
 .navbar a:hover {
   background-color: pink;
 }
@@ -96,6 +95,9 @@ main {
     height: 100vh;
     position: relative;
     background-color: rgb(155,100,118);
+    text-align: right;
+    font-size: 20px;
+    color: white;
   }
   .Third, .fakeimg {
     float: left;
