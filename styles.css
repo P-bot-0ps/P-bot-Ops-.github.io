@@ -21,6 +21,7 @@ body {
   color: brown;
   font-size: x-large;
   background-color: rgb(211, 165, 165);
+  margin-top: 20px;
 }
 h1, h2 {
   font-family: sans-serif;
@@ -52,7 +53,12 @@ h1, h2 {
   background-color: pink;
 }
 
-  
+button{
+  border: 5px solid #be1111;
+  background-color: #be1111;
+font-size: 20px;
+color: white;
+}  
   
 
 
