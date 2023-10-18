@@ -21,12 +21,13 @@ body {
   font-size: 50px;
 }
 .navbar {
-  position: sticky;
-  position: webkit-sticky;
-  top: 0px;
-  left: opx;
-  width: 100vw;
-  z-index: 1;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
   line-height: 50px;
   background-color:rgb(182, 199, 199);
 }
