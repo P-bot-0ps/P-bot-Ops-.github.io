@@ -114,12 +114,13 @@ main {
     
 
 .footer {
-  font-size: 38px;
+  font-size: 2opx;
   width: 100vw;
   margin-bottom: 5px;
   background-color: rgb(41, 39, 43);
   position: relative;
   padding: 20px;
   height: 100vh;
+  color: white;
 }
 
