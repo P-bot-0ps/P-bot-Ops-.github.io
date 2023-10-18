@@ -98,6 +98,10 @@ main {
     height: 100vh;
     position: relative;
     background-color: rgb(155,1oo,118);
+  }
+  .Third, .fakeimg {
+    float: left;
+  }
     
 
 .footer {
