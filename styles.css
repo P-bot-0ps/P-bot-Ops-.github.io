@@ -36,7 +36,6 @@ h1, h2 {
   font-size: 50px;
 }
 .nav {
-  font-size: 30px;
   font-family: sans-serif;
   font-weight: 100;
   color: white;
@@ -55,10 +54,38 @@ h1, h2 {
 
 }
 
-.navbar a:hover {
+.nav a:hover {
   background-color: pink;
 }
-
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+ul{
+  list-style: none;
+}
+.list-item {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.nav-list {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+a {
+  text-decoration: none;
+  color: var(--main-white);
+  :root{
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+  }
+  @media (max-width 61:25em;)
+  html {
+    
+  }
+    
+  
 button{
   border: 10px solid #be1111;
   background-color: #be1111;
