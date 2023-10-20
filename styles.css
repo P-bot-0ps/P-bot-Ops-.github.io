@@ -96,11 +96,11 @@ h2 {
   .nav {
     justify-content: center;
   }
-  .nav-item {
+  .nav-list {
     margin: 0 1rem;
   }
 }
-.nav-item a {
+.nav-list a {
   display: block;
   font-size: 2.2rem;
   padding: 2rem;
@@ -110,7 +110,7 @@ h2 {
 .nav a:hover {
   background-color: pink;
 }
-.nav-itemt {
+.nav-list {
   display: flex;
   margin-right: 2rem;
 }
