@@ -54,6 +54,13 @@ html{
   font-size: x-large;
   background-color: rgb(211, 165, 165);
 }
+.welcome-section > p {
+  font-size: 3rem;
+  font-weght: 200;
+  font-style: italic;
+  color: var(--main-white);
+  
+
 h1, h2 {
   font-family: sans-serif;
   font-weight: 700;
@@ -85,6 +92,20 @@ h2 {
   border-radius: 50px;
 
 }
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
 
 .nav a:hover {
   background-color: pink;
@@ -130,6 +151,26 @@ padding: 5px;
   padding: 10rem 2rem;
   text-align: center;
 }
+  .projects-grid{
+    display: grid;
+    grid-tempelate-columns: repeat(auto-fit, minmax(320, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  @media (max-width: 30.625em) {
+    .projects {
+      padding: 6rem 1rem;
+    }
+    projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .project
+      
+    
   hr {
     border: 5px solid rgb(29, 4, 4);
   } 
