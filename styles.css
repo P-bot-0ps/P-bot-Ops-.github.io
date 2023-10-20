@@ -18,7 +18,7 @@ body {
 html{
   box-sizing: border-box;
   font-size: 62.5%;
-  scroll-behaviour: smooth;
+  scroll-behavior: smooth;
 }
 @media (max-width: 75em) {
   html {
@@ -56,7 +56,7 @@ html{
 }
 .welcome-section > p {
   font-size: 3rem;
-  font-weght: 200;
+  font-weight: 200;
   font-style: italic;
   color: var(--main-white);
   
@@ -96,11 +96,11 @@ h2 {
   .nav {
     justify-content: center;
   }
-  .nav-list {
+  .nav-item {
     margin: 0 1rem;
   }
 }
-.nav-list a {
+.nav-item a {
   display: block;
   font-size: 2.2rem;
   padding: 2rem;
@@ -110,7 +110,7 @@ h2 {
 .nav a:hover {
   background-color: pink;
 }
-.nav-list {
+.nav-itemt {
   display: flex;
   margin-right: 2rem;
 }
@@ -128,10 +128,6 @@ a {
   :root{
     --main-white: #f0f0f0;
     --main-red: #be3144;
-  }
-  @media (max-width 61:25em;)
-  html {
-    
   }
     
   
@@ -153,7 +149,7 @@ padding: 5px;
 }
   .projects-grid{
     display: grid;
-    grid-tempelate-columns: repeat(auto-fit, minmax(320, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320, 1fr));
     grid-gap: 4rem;
     width: 100%;
     max-width: 1280px;
@@ -201,7 +197,7 @@ padding: 5px;
   border-top: 4px solid var(--main-red);
   color: white;
 }
-  footer > p{
+  footer > p {
     margin: 2rem;
   }
   footer i {
@@ -212,6 +208,7 @@ padding: 5px;
       flex-direction: column;
       text-align: center;
     }
+  }
 
     
 
