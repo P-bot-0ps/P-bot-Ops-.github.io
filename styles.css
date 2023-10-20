@@ -56,7 +56,7 @@ html{
   background-color:rgb(182, 199, 199);
 }
 .navbar-brand, img {
-  border-radius: 50px;
+  border-radius: 50rem;
 
 }
 @media (max-width: 28.75em) {
@@ -84,7 +84,7 @@ html{
 ul{
   list-style: none;
 }
-.list-item {
+.nav-list{
   display: list-item;
   text-align: -webkit-match-parent;
 }
