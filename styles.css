@@ -15,6 +15,33 @@ body {
   padding: 0;
 
 }
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behaviour: smooth;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+@media (max-width: 28.75em)
+{ html {
+  font-size: 55%;
+}
+}
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+
 
 .welcome-section {
   display: flex;
@@ -29,12 +56,17 @@ body {
 }
 h1, h2 {
   font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
   
 }
-
-.header, p {
-  font-size: 50px;
+h1 {
+  font-size: 6rem;
 }
+h2 {
+  font-size: 4.2rem;
+}
+
 .nav {
   font-family: sans-serif;
   font-weight: 100;
@@ -68,11 +100,7 @@ ul{
   display: list-item;
   text-align: -webkit-match-parent;
 }
-.nav-list {
-  display: block;
-  font-size: 2.2rem;
-  padding: 2rem;
-}
+
 a {
   text-decoration: none;
   color: var(--main-white);
@@ -114,23 +142,35 @@ padding: 5px;
     font-size: 10px;
     color: white;
   }
-  .Third, .fakeimg {
+  .home, .fakeimg {
     float: left;
   }
-  .Third, h2, h5{
+  .home, h2, h5{
     text-align: center;
     font: 15px;
   }
     
 
 .footer {
-  font-size: 10px;
-  width: 100vw;
-  margin-bottom: 5px;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
   background-color: rgb(41, 39, 43);
-  position: relative;
-  padding: 20px;
-  height: 100vh;
+  border-top: 4px solid var(--main-red);
   color: white;
 }
+  footer > p{
+    margin: 2rem;
+  }
+  footer i {
+    vertical-align: middle;
+  }
+  @media (max-width: 28.75em) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    
 
