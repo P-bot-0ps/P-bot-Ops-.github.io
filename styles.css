@@ -117,7 +117,7 @@ h2 {
 ul{
   list-style: none;
 }
-.nav-list {
+.list-item {
   display: list-item;
   text-align: -webkit-match-parent;
 }
