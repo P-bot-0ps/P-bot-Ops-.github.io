@@ -60,6 +60,10 @@ body {
   z-index: 10;
   background-color:rgb(182, 199, 199);
 }
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
 .navbar-brand, img {
   border-radius: 50rem;
 
@@ -73,22 +77,15 @@ body {
   }
 }
 .nav-list a {
-  display: flex;
-  flex-direction: row;
+  display: block;
   font-size: 2.2rem;
   padding: 2rem;
-  float: left;
+  }
 
-}
-
-
-.nav a:hover {
+.nav-list a:hover {
   background-color: pink;
 }
-.nav-list {
-  display: flex;
-  margin-right: 2rem;
-}
+
 ul{
   list-style: none;
 }
