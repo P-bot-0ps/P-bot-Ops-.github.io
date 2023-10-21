@@ -6,7 +6,7 @@ html{
 :root {
   --main-white: #f0f0f0;
   --main-gray: #303841;
-  --main-red:var(--main-red)
+  --main-red:#be3144;
 }
 @media (max-width: 75em) {
   html {
@@ -130,17 +130,13 @@ h2 {
   font-size: 5rem;
 }
 
-
-  
-    
-  
-button{
-  border: 10rem solid #be1111;
-  background-color: #be1111;
-font-size: 10rem;
-color: white;
-border-radius: 50rem;
-padding: 10rem;
+.welcome-section, button {
+  border: 10rem solid gray;
+  background-color:var(--main-gray);
+  font-size: 10rem;
+  color: white;
+  border-radius: 10rem;
+  padding: 10rem;
 }  
   
 
