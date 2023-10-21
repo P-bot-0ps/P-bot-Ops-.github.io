@@ -112,7 +112,7 @@ a {
 }
 .welcome-section > h1 {
   font-size: 2rem;
-  margin-top: 5rem;
+  margin-top: 20rem;
   font-weight: 200rem;
 }
   
@@ -121,8 +121,9 @@ a {
   font-weight: 200;
   font-style: italic;
   color: var(--main-white);
+  margin-left: 5rem;
   
-  .welcome-section, button {
+  .welcome-section > button {
   border: 10rem solid gray;
   background-color:var(--main-gray);
   font-size: 10rem;
