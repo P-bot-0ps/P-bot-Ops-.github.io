@@ -1,24 +1,11 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 1.4;
-  color: var(--main-white);
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-
-}
 html{
   box-sizing: border-box;
   font-size: 62.5%;
   scroll-behavior: smooth;
+}
+:root {
+  --main-white: #f0f0f0;
+  --main-gray: #303841;
 }
 @media (max-width: 75em) {
   html {
@@ -40,19 +27,36 @@ html{
     font-size: 55%;
   }
 }
+ 
 
+    
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--main-white);
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+   
 .nav {
-  font-family: sans-serif;
-  font-weight: 100;
-  color: white;
-  position: fixed;
   display: flex;
   justify-content: flex-end;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
-  line-height: 50px;
   background-color:rgb(182, 199, 199);
 }
 .navbar-brand, img {
