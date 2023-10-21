@@ -69,6 +69,11 @@ body {
   border-radius: 50rem;
 
 }
+.nav, .nav-list {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
 @media (max-width: 28.75em) {
   .nav {
     justify-content: center;
