@@ -67,6 +67,9 @@ body {
 }
 .navbar-brand, img {
   border-radius: 50rem;
+  display: block;
+  float: left;
+  
 
 }
 .nav, .nav-list {
@@ -94,10 +97,6 @@ body {
 
 ul{
   list-style: none;
-}
-.list-item {
-  display: list-item;
-  text-align: -webkit-match-parent;
 }
 
 a {
