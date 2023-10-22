@@ -58,9 +58,19 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
   background-color:rgb(182, 199, 199);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
 }
+
+ul{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
 .nav-list {
   display: flex;
   margin-right: 2rem;
