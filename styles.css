@@ -98,9 +98,6 @@ ul{
   padding: 2rem;
   }
 
-.nav-list a:hover {
-  background-color: pink;
-}
 
 ul{
   list-style: none;
@@ -247,8 +244,8 @@ h2 {
     position: relative;
     background-color: var(--main-blue);
     text-align: right;
-    font-size: 10rem;
-    color: white;
+    font-size: 5rem;
+    color: var(--main-white);
   }
   .home, .fakeimg {
     float: left;
