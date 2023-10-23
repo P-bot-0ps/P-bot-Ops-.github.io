@@ -243,7 +243,7 @@ a {
     color: var(--main-white);
   }
   .home-section, .fakeimg {
-    float: left;
+    
   }
   .home-section, h2, h5{
     text-align: center;
