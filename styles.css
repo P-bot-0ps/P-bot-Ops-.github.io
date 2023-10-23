@@ -52,7 +52,7 @@ body {
 }
 
    
-.navbar-toggler {
+.nav {
   display: flex;
   justify-content: flex-end;
   position: fixed;
@@ -64,23 +64,16 @@ body {
   z-index: 10;
 
 
-.nav-item {
+.nav-list {
   display: flex;
   margin-right: 2rem;
-}
-.navbar-brand, img {
-  border-radius: 50rem;
-  display: block;
-  float: left;
-  
-
 }
 
 @media (max-width: 28.75em) {
   .nav {
     justify-content: center;
   }
-  .nav-item {
+  .nav-list{
     margin: 0 1rem;
   }
 }
@@ -225,7 +218,7 @@ a {
   hr {
     border: 3rem solid rgb(29, 4, 4);
   } 
-  .home-section {
+  .contact-section {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -234,10 +227,10 @@ a {
     font-size: 5rem;
     color: var(--main-white);
   }
-  .home-section, .fakeimg {
+  .contact-section, .fakeimg {
     
   }
-  .home-section, h2, h5{
+  .contact-section, h2, h5{
     text-align: center;
     font: 10rem;
   }
