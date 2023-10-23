@@ -132,7 +132,7 @@ a {
   color: var(--main-white);
   margin-left: 5rem;
   
-  .welcome-section > button {
+  .welcome-section, h1, p, button {
   border: 10rem solid gray;
   background-color:var(--main-gray);
   font-size: 10rem;
