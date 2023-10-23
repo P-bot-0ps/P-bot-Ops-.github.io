@@ -140,19 +140,6 @@ a {
   padding: 10rem;
 }  
 
-h1, h2 {
-  font-family: sans-serif;
-  font-weight: 700;
-  text-align: center;
-  
-}
-h1 {
-  font-size: 5rem;
-}
-h2 {
-  font-size: 5rem;
-}
-
  .projects-section {
    display: flex;
    flex-direction: column;
