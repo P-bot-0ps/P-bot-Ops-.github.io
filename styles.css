@@ -89,7 +89,8 @@ a{
 
 .nav-list {
   display: flex;
-  margin-right: 2rem;
+  margin-right: 2rem
+  padding: 5rem;
 }
 
 @media (max-width: 28.75em) {
