@@ -3,7 +3,7 @@
   --main-gray: #303841;
   --main-red:#be3144;
   --main-blue:#45567d;
-  --main-orange:#fd7e14;
+  
 }
 @media (max-width: 75em) {
   html {
@@ -129,14 +129,7 @@ a{
   color: var(--main-white);
   margin-left: 5rem;
   
-  .welcome, h1, p, button {
-  border:5rem solid gray;
-  background-color:var(--main-gray);
-  font-size: 5rem;
-  border-radius: 5rem;
-  padding: 10rem;
-  
-}  
+
 
  .projects-section {
    display: flex;
@@ -146,7 +139,7 @@ a{
    height: 100vh;
    align-items: center;
    font-size: 2rem;
-  background-color: var(--main-orange);
+  background-color: var(--main-blue);
   padding: 10rem 2rem;
   
    
