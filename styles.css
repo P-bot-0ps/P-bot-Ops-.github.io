@@ -129,6 +129,13 @@ a{
   background-color: var(--main-red);
   
 }
+  @media print{
+    .welcome {
+      background-color:var(--main-red) !important;;
+      color: #fff !important;;
+    }
+  }
+      
 .welcome > h1 {
   font-size: 3rem;
   margin: 10rem;
