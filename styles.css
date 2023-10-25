@@ -92,7 +92,6 @@ a{
 .nav-list {
   display: flex;
   list-style-type: none;
-  margin-right: 2rem;
   justify-content: space-between;
   
 }
