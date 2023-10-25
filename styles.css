@@ -1,3 +1,10 @@
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+}
 :root {
   --main-white: #f0f0f0;
   --main-gray: #303841;
@@ -34,7 +41,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   color: var(--main-white);
-  display: block;
+  
 }
 h1,
 h2 {
@@ -85,7 +92,7 @@ a{
 .nav-list {
   display: flex;
   margin-right: 2rem
-  padding: 5rem;
+  
 }
 
 @media (max-width: 28.75em) {
@@ -96,7 +103,7 @@ a{
     margin: 0 1rem;
   }
   .nav-list a:hover {
-    background: var(--main-red);
+    background-color: var(--main-red);
 }
 .nav-list a {
   display: block;
@@ -233,9 +240,7 @@ a{
     font-size: 3rem;
     color: var(--main-white);
   }
-  .contact-section, .fakeimg {
-    
-  }
+  
   .contact-section, h2, h5{
     text-align: center;
     font: 3rem;
@@ -262,4 +267,5 @@ a{
       flex-direction: column;
       text-align: center;
     }
-  }   
+  }
+     
