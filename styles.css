@@ -61,6 +61,9 @@ ul {
 a{
   text-decoration: none;
   color: var(--main-white);
+  padding-left: 3rem;
+  padding-right: 3 rem;
+  
 }
 
 
