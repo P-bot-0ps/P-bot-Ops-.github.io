@@ -97,6 +97,7 @@ a{
   display: flex;
   list-style-type: none;
   justify-content: space-between;
+  padding: 5rem;
   
 }
 
@@ -109,8 +110,6 @@ a{
   }
   .nav-list a:hover {
     background-color: var(--main-red);
-    a:hover{
-      background-color: var(--main-red);
 }
 .nav-list a {
   display: flex;
