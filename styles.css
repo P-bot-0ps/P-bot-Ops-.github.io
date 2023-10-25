@@ -121,20 +121,19 @@ a{
 
 
 .welcome {
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
   width: 100%;
-  height: auto;
-  margin: auto;
-  overflow: hidden;
+  height: 100vh;
   background-color: var(--main-red);
   
 }
 .welcome > h1 {
   font-size: 3rem;
-  margin-top: 0 auto;
+  margin: 10rem;
   font-weight: 200;
   color: var(--main-white);
 }
@@ -149,6 +148,7 @@ a{
 
 
  .projects-section {
+   position: absolute;
    display: flex;
    flex-direction: column;
    justify-content: center;
