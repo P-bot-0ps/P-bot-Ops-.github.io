@@ -121,7 +121,6 @@ a{
 
 
 .welcome {
-  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -148,7 +147,6 @@ a{
 
 
  .projects-section {
-   position: absolute;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -244,7 +242,7 @@ a{
   } 
   .contact-section {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     position: relative;
     background-color: var(--main-red);
     text-align: right;
@@ -264,7 +262,7 @@ a{
   justify-content: space-evenly;
   padding: 2rem;
   background-color: rgb(41, 39, 43);
-  border-top: 4px solid var(--main-red);
+  border-top: 4px solid red;
   color: white;
 }
   footer > p {
