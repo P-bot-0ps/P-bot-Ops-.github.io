@@ -100,10 +100,10 @@ a {
   display: flex;
   font-size: 4rem;
    }
-    
-  .ul, li, a:hover {
-    background-color: var(--main-blue);
-}
+
+    body, .welcome{
+        background-color: var(--main-red);
+    }
 
 .welcome {
   display: flex;
@@ -111,8 +111,8 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-heght:900px;
-  background-color: var(--main-gray);
+  max-width: 1920px;
+  background-color: var(--main-red);
   
 }
   
@@ -138,7 +138,10 @@ a {
       }
     }
 
-
+body, .projects-section {
+   background-color: var(--main-blue);
+}
+  
  .projects-section {
    text-align: center;
   padding: 10rem 2rem;
@@ -220,6 +223,10 @@ a {
     hr {
     border: 3rem solid rgb(29, 4, 4);
   }
+    body, .contact-section {
+        background-color: var(--main-gray);
+    }
+      
     
   .contact-section {
     display: flex;
