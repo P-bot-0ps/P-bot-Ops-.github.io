@@ -179,6 +179,7 @@ a {
     border-radius: 2px;
   }
   .code{
+    border: 3px solid blue;
     color: var(--main-gray);
     transition: color 0.3s ease-out;
   }
