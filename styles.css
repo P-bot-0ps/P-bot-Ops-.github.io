@@ -129,12 +129,12 @@ a{
   background-color: var(--main-red);
   
 }
-  @media print{
+  @media screen{
     .welcome {
-      background-color:var(--main-red) !important;;
-      color: #fff !important;;
+      background-color: #be3144;
     }
   }
+      
       
 .welcome > h1 {
   font-size: 3rem;
