@@ -59,7 +59,7 @@ h1 {
 h2 {
   font-size: 4.2rem;
 } 
-ul {
+ul, li, a {
   list-style: none;
   padding-left: 3rem;
   padding-right: 3rem;
@@ -78,7 +78,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--main-red);
+  background-color: var(--main-gray);
   height: 6rem;
   z-index: 10;
 
