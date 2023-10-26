@@ -61,8 +61,8 @@ h2 {
 } 
 ul, li, a {
   list-style: none;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   color: var(--main-white);
   justify-content: space-evenly;
   } 
@@ -101,7 +101,7 @@ a {
   font-size: 4rem;
    }
     
-  .nav-list a:hover {
+  .ul, li, a:hover {
     background-color: var(--main-blue);
 }
 
