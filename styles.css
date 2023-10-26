@@ -61,6 +61,11 @@ h2 {
 } 
 ul {
   list-style: none;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: var(--main-white);
+  justify-content: space-evenly;
+  } 
 }
 a {
   text-decoration: none;
@@ -94,11 +99,7 @@ a {
    .nav-list a {
   display: flex;
   font-size: 4rem;
-  padding-left: 3rem;
-     padding-right: 3rem;
-     color: var(--main-white);
-     justify-content: space-evenly;
-  } 
+   }
     
   .nav-list a:hover {
     background-color: var(--main-blue);
