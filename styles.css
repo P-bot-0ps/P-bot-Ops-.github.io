@@ -70,9 +70,7 @@ ul, li, a {
   color: var(--main-white);
   justify-content: space-evenly;
   } 
-ul, li, a:hover{
-  background-color: var(--main-red);
-}
+
 a {
   text-decoration: none;
   }
