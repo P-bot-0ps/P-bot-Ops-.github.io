@@ -2,7 +2,8 @@
   --main-white: #fff;
   --main-gray: #6c757d;
   --main-red:#dc3545;
-  --main-blue:#17a2b8;
+  --main-cyan:#17a2b8;
+  --main-warning:#ffc107;
   }
 * {
   margin: 0;
@@ -50,10 +51,10 @@ body {
   background-color: var(--main-red);
 }
 #projects {
-  background-color: var(--main-gray);
+  background-color: var(--main-warning);
 }
   #contacts {
-    background-color: var(--main-blue);
+    background-color: var(--main-cyan);
   }
 
 h1,
