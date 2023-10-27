@@ -43,7 +43,9 @@ body {
   font-weight: 400;
   line-height: 1.4;
   color: var(--main-white);
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--main-red);
   
   }
 
@@ -101,9 +103,7 @@ a {
   font-size: 4rem;
    }
 
-    body, .welcome{
-        background-color: var(--main-red);
-    }
+    
 
 .welcome {
   display: flex;
@@ -123,24 +123,7 @@ a {
   color: var(--main-white);
   margin-left: 5rem;
 }
-    
-  .welcome {
-    background-color: var(--main-gray);
-  }
-    @media screen and (min-width: 400px) {
-      .welcome {
-        background-color: var(--main-blue) ;
-      }
-    }
-    @media screen and (min-width: 800px) {
-      .welcome {
-        background-color: var(--main-gray) ;
-      }
-    }
 
-body, .projects-section {
-   background-color: var(--main-blue);
-}
   
  .projects-section {
    text-align: center;
@@ -222,9 +205,6 @@ body, .projects-section {
     
     hr {
     border: 3rem solid rgb(29, 4, 4);
-  }
-    body, .contact-section {
-        background-color: var(--main-gray);
     }
       
     
