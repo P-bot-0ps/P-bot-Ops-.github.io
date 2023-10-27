@@ -17,7 +17,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   scroll-behavior: smooth;
-  height: 100vh;
+  min- height: 100vh;
 
 }
 
@@ -65,9 +65,13 @@ ul, li, a {
   list-style: none;
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   color: var(--main-white);
   justify-content: space-evenly;
   } 
+ul, li, a:hover{
+  background-color: var(--main-red);
 }
 a {
   text-decoration: none;
