@@ -5,6 +5,7 @@
   --main-cyan:#17a2b8;
   --main-warning:#ffc107;
   --main-gray-dark:#343a40;
+  --main-success:#28a745;
   }
 * {
   margin: 0;
@@ -52,7 +53,7 @@ body {
   background-color: var(--main-red);
 }
 #projects {
-  background-color: var(--main-warning);
+  background-color: var(--main-success);
 }
   #contact {
     background-color: var(--main-gray);
