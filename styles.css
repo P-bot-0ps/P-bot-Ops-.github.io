@@ -53,7 +53,7 @@ body {
 #projects {
   background-color: var(--main-warning);
 }
-  #contacts {
+  #contact {
     background-color: var(--main-cyan);
   }
 
@@ -64,7 +64,7 @@ h2 {
   text-align: center;
 }
 h1 {
-  font-size: 5rem;
+  font-size: 7rem;
 }
 h2 {
   font-size: 3rem;
