@@ -214,12 +214,7 @@ a {
     transform: translateX(0);
     transition: transform 0.3s ease-out;
   }
-    
-    hr {
-    border: 3rem solid rgb(29, 4, 4);
-    }
-      
-    
+     
   .contact-section {
     display: flex;
     flex-direction: column;
