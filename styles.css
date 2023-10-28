@@ -4,6 +4,7 @@
   --main-red:#dc3545;
   --main-cyan:#17a2b8;
   --main-warning:#ffc107;
+  --main-gray-dark:#343a40;
   }
 * {
   margin: 0;
@@ -54,7 +55,7 @@ body {
   background-color: var(--main-warning);
 }
   #contact {
-    background-color: var(--main-cyan);
+    background-color: var(--main-gray-dark);
   }
 
 h1,
