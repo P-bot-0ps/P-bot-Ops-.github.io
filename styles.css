@@ -81,7 +81,7 @@ ul, li, a {
   color: var(--main-white);
   justify-content: space-evenly;
   } 
-.nav-list:hover {
+.nav-list a:hover {
   background: #dc3545;
 
 }
@@ -127,7 +127,7 @@ a {
     
   }
   .nav img {
-    margin-right: 60rem;
+    margin-right: 70rem;
     border-radius: 50rem;
   }
 
