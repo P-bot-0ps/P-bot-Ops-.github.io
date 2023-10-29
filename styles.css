@@ -152,6 +152,7 @@ a {
   }
     
   .peojects-section-header {
+    background-clor: brown;
     max-width: 640px;
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem solid var(--main-white);
