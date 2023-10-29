@@ -69,7 +69,8 @@ h1 {
   font-size: 7rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 4rem;
+  margin-top: 3rem;
 } 
 ul, li, a {
   list-style: none;
@@ -80,7 +81,10 @@ ul, li, a {
   color: var(--main-white);
   justify-content: space-evenly;
   } 
+.nav-list:hover {
+  background: #dc3545;
 
+}
 a {
   text-decoration: none;
   }
@@ -152,7 +156,7 @@ a {
   }
     
   .peojects-section-header {
-    background-clor: brown;
+    background-color: brown;
     max-width: 640px;
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem solid var(--main-white);
@@ -198,7 +202,7 @@ a {
   }
   .project-image {
     height: calc(100% - 6.8rem);
-    width: 300px;
+    width: 100%;
     object-fit: cover;
     
   }
