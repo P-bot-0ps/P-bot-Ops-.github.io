@@ -74,7 +74,6 @@ h2 {
 } 
 ul, li, a {
   list-style: none;
-  text-decoration: none;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-bottom: 1rem;
@@ -86,7 +85,7 @@ ul, li, a {
   background: #dc3545;
 
 }
-a {
+.nav-list a {
   text-decoration: none;
   }
 
@@ -105,7 +104,7 @@ a {
 .nav-list {
   display: flex;
   margin-right: 2rem;
-  text-decoration: none;
+  
 }
 
 
@@ -132,6 +131,7 @@ a {
   .nav img {
     margin-right: 80rem;
     border-radius: 50rem;
+    margin-top: 2rem;
   }
 
 .welcome {
