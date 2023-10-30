@@ -105,7 +105,9 @@ a {
 .nav-list {
   display: flex;
   margin-right: 2rem;
+  text-decoration: none;
 }
+
 
 @media (max-width: 28.75em) {
   .nav {
