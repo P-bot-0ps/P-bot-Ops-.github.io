@@ -256,6 +256,9 @@ ul, li, a {
     }
 .contact-section-header > p {
     font-style: italic;
+  font-family: sans serif;
+  color: var(--main-red);
+  font-size: 3rem;
   }
     .contact-links {
       display: flex;
