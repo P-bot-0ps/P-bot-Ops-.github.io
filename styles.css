@@ -70,7 +70,7 @@ h1 {
 }
 h2 {
   font-size: 4rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 } 
 ul, li, a {
   list-style: none;
@@ -118,7 +118,7 @@ ul, li, a {
 }
    .nav-list a {
   display: flex;
-  font-size: 2rem;
+  font-size: 3rem;
    }
 
   hr{
@@ -131,7 +131,7 @@ ul, li, a {
   .nav img {
     margin-right: 80rem;
     border-radius: 50rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
 .welcome {
