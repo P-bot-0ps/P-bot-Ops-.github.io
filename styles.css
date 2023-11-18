@@ -50,7 +50,7 @@ body {
   min-height: 100vh;
    }
 #welcome-section {
-  background-color: var(--main-red);
+  background-color: linear gradient(rgba(0, 255, 0, 0), rgb(33, 6, 29));
 }
 #projects {
   background-color: var(--main-success);
