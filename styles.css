@@ -50,10 +50,10 @@ body {
   min-height: 100vh;
    }
 #welcome-section {
-  background-image: linear-gradient(rgba(0, 255, 0, 0), rgb(114, 62, 104));
+  background-color: indianred;
 }
 #projects {
-  background-image: linear-gradient(rgba(131, 72, 72, 0), rgb(235, 124, 34));
+  background-image: blue;
 }
   #contact {
     background-color: var(--main-gray-dark);
@@ -146,6 +146,7 @@ ul, li, a {
   
 .welcome > p {
   font-family: sans-serif;
+  font-style: italic;
   font-size: 3rem;
   font-weight: 200;
   color: var(--main-red);
