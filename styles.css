@@ -132,6 +132,7 @@ ul, li, a {
     margin-right: 80rem;
     border-radius: 50rem;
     margin-top: 1rem;
+    margin-left: 3rem;
   }
 
 .welcome {
@@ -150,7 +151,7 @@ ul, li, a {
   font-size: 3rem;
   font-weight: 200;
   color: var(--main-red);
-  margin-left: 5rem;
+  margin-left: 4rem;
 }
     
  .projects-section {
