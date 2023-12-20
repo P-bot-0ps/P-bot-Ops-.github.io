@@ -53,7 +53,7 @@ body {
   background-color: indianred;
 }
 #projects {
-  background-image: blue;
+  background-color: rgb(0, 81, 255);
 }
   #contact {
     background-color: var(--main-gray-dark);
@@ -129,10 +129,10 @@ ul, li, a {
     
   }
   .nav img {
-    margin-right: 80rem;
+    margin-right: 77rem;
     border-radius: 50rem;
     margin-top: 1rem;
-    margin-left: 3rem;
+    
   }
 
 .welcome {
