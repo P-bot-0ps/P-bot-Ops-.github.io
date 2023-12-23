@@ -279,7 +279,7 @@ ul, li, a {
       transform: translateY(8px);
     }
 .btn contact-details{
-  color: var(--main-white);
+  color: white;
   font-size: 3rem;
 }
   
