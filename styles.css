@@ -278,6 +278,11 @@ ul, li, a {
     contact-details-hover {
       transform: translateY(8px);
     }
+.btn contact-details{
+  color: var(--main-white);
+  font-size: 3rem;
+}
+  
       
       .footer {
   font-weight: 300;
